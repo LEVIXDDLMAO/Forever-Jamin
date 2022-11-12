@@ -18,10 +18,7 @@ class Startup extends FlxState
 
 	// shit can precache online images and even asset images
 	public static var precacheList:Array<String> = [
-		'https://media.discordapp.net/attachments/907738207528050718/1020080809056669736/Img_2022_09_15_14_57_53.jpg',
-		'assets/images/dumbfairy.jpeg',
-		'https://media.discordapp.net/attachments/907738207528050718/1020066776760995971/unknown.png',
-		'https://media.discordapp.net/attachments/907738207528050718/1020068815863824473/unknown.png'
+		'assets/images/dumbfairy.jpeg'
 	];
 
 	override function create()
